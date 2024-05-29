@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The nerd - loja de produtos geek</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body data-bs-spy="scroll" data-bs-smooth-scroll="true">
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-9 fw-bold">The nerd</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-restaurante">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Produtos 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi bi-card-text me-1"></i>
+                            Catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-target="cabecalho">
+        <section id="sobre-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/chaveiros.png" alt="Chavieros valorant">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/moletom.png" alt="Moletom Jujutsu Kaisen">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/posteres.png" alt="Posteres de GTA">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active botao-preto" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" class="botao-preto" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" class="botao-preto" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/logonerd.jpg" class="d-block w-100 rounded" alt="Logo da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span>a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsam unde aliquid labore iusto culpa cumque accusamus quam. Minima, ipsum obcaecati? Asperiores unde quia ipsa assumenda nobis vel totam beatae!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored mb-5">Para as todas as ocasiões</h2>
+                </div>
+                <div class="row mp-4">
+                    <div class="col-md-4">
+                        <img src="./images/produtos/moletomlufi.png" alt="Moletom One Piece" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-1-square-fill"></i>
+                            Moletons
+                        </h3>
+                        <p class="text-colored">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi maiores totam blanditiis ducimus ratione dicta optio et, porro cum cupiditate ipsam quibusdam reprehenderit at earum? Itaque excepturi nihil sapiente.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/produtos/chaveiroloki.png" alt="Chaveiro cajado do Loki" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-2-square-fill"></i>
+                            Chaveiros
+                        </h3>
+                        <p class="text-colored">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi quos exercitationem perferendis fugiat, velit fuga voluptas quasi saepe quod? Repellat, quas voluptatibus harum laboriosam neque minus? Quasi, modi quas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/produtos/postergojo.png" alt="Poster de Jujutsu Kaisen" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-3-square-fill"></i>
+                            Posters
+                        </h3>
+                        <p class="text-colored">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deleniti dolore officiis autem doloremque labore minus fuga culpa et ducimus incidunt cumque quia, explicabo at accusamus, sapiente, possimus nisi eos!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        <span>Catálogo</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Moletons</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Chaveiros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Posteres</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/goku.png" alt="Moletom preto Goku - Dragon Ball">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom preto, Goku - Dragon Ball</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/itadori.png" alt="Moletom preto Yuji Itadori - Jujutsu Kaisen">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom preto, Yuji Itadori - Jujutsu Kaisen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/jujutsuvermelho.png" alt="Moletom vermelho, Satouro Gojo - Jujutsu Kaisen">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom vermelho, Satouro Gojo - Jujutsu Kaisen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/moletom.png" alt="Moletom rosa, Yuji Itadori - Jujutsu Kaisen">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom rosa, Yuji Itadori - Jujutsu Kaisen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/moletomlufi.png" alt="Moletom preto, Luffi - One Piece">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom preto, Luffi - One Piece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/naruto.png" alt="Moletom preto, Naruto - Naruto Shipudden">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom preto, Naruto - Naruto Shipudden</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/sukuna.png" alt="Moletom rosa, Sukuna - Jujutsu Kaisen">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom rosa, Sukuna - Jujutsu Kaisen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/moletons/tokitopreto.png" alt="Moletom preto, Tokito - Demon Slayer">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom preto, Tokito - Demon Slayer</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/chaveiros/chaveiroloki.png" alt="Chaveiro Loki">
+                                        <h5 class="text-colored fw-bold mt-2">Chaveiro Loki</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/chaveiros/chaveiros.png" alt="Chveiros Valorant">
+                                        <h5 class="text-colored fw-bold mt-2">Chveiros Valorant</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/chaveiros/mario.png" alt="Cheveiros mario">
+                                        <h5 class="text-colored fw-bold mt-2">Cheveiros mario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/chaveiros/marvel.png" alt="Chaveiros Marvel">
+                                        <h5 class="text-colored fw-bold mt-2">Chaveiros Marvel</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/chaveiros/pikachu.png" alt="Chaveiro Pikachu">
+                                        <h5 class="text-colored fw-bold mt-2">Chaveiro Pikachu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/catalogo/chaveiros/starwars.png" alt="Chaveiro Star Wars">
+                                        <h5 class="text-colored fw-bold mt-2">Chaveiro Star Wars</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="entradas">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/catalogo/posteres/blackcover.png" alt="Poster Black Cover">
+                                            <h5 class="text-colored fw-bold mt-2">Poster Black Cover</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/catalogo/posteres/demonslayer.png" alt="Poster Demon Slayer">
+                                            <h5 class="text-colored fw-bold mt-2">Poster Demon Slayer</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/catalogo/posteres/posteres.png" alt="Poster GTA">
+                                            <h5 class="text-colored fw-bold mt-2">Poster GTA</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/catalogo/posteres/postergojo.png" alt="Poster Jujutsu Kaisen">
+                                            <h5 class="text-colored fw-bold mt-2">Poster Jujutsu Kaisen</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (Opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" name="mensagem" required id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="text-colored">
+                                Endereço inventado, rua não sei, 1321 - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

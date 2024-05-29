@@ -1,0 +1,87 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(107, 34, 202);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(107, 34, 202);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Oswald", sans-serif;
+}
+
+.botao-preto {
+    color: #000000;
+}
+
+#sobre-restaurante .carousel-item img {
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+.section-title span {
+    color: rgb(107, 34, 202);
+}
+
+#sobre-restaurante, #cardapio {
+    background-color: #ffffff;
+}
+
+#eventos, #contato {
+    background-color: rgb(107, 34, 202);
+}
+
+.text-colored {
+    color: rgb(107, 34, 202);
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(107, 34, 202);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+#eventos .text-colored, #contato .text-colored {
+    color: #fff;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato textarea {
+    resize: none;
+    height: 120px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
